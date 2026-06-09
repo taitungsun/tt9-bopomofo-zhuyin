@@ -1,0 +1,26 @@
+diff --git a/app/build.gradle b/app/build.gradle
+index d11f330..d7872aa 100644
+--- a/app/build.gradle
++++ b/app/build.gradle
+@@ -117,6 +117,7 @@ android {
+ 
+ 	buildTypes {
+ 		debug {
++			applicationIdSuffix '.bopomofo'
+ 			buildConfigField 'String', 'VERSION_FULL', "\"${getVersionString('debug')}\""
+ 		}
+ 		release {
+diff --git a/app/languages/definitions/ChineseBopomofo.yml b/app/languages/definitions/ChineseBopomofo.yml
+index 08a334d..3c09846 100644
+--- a/app/languages/definitions/ChineseBopomofo.yml
++++ b/app/languages/definitions/ChineseBopomofo.yml
+@@ -2,7 +2,7 @@ locale: zh-TW
+ dictionaryFile: zh-bopomofo.csv
+ iconABC: ic_lang_zh_bopomofo
+ iconT9: ic_lang_zh_traditional
+-name: 中文 / 繁體_chw+edu
++name: 中文 / 注音
+ abcString: ㄅㄆㄇ
+ hasSpaceBetweenWords: no
+ hasUpperCase: no
+ChineseBopomofoLarge.yml was DELETED (the redundant large 注音 variant)
