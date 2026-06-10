@@ -33,3 +33,12 @@ Tones are **not** keyed — `filterBySounds` predicts candidates from the conson
 sequence (classic T9), so you pick the character from the candidate list.
 
 Examples: 媽 ㄇㄚ = 1‑7 · 你 ㄋㄧ = 2‑0 · 好 ㄏㄠ = 3‑8 · 中 ㄓㄨㄥ = 5‑0‑9 · 孫 ㄙㄨㄣ = 6‑0‑9
+
+## License & credit
+
+This is a **derivative work of [sspanak/tt9](https://github.com/sspanak/tt9)** (branch
+`bopomofo-dictionary`), which is licensed under the **GNU GPL v3**. Accordingly this repo is
+also released under **GPLv3** — see [`LICENSE`](LICENSE). The modifications are captured in
+[`source-changes.diff`](source-changes.diff); the prebuilt APK is not redistributed here
+(see its SHA-256 and the rebuild steps above). All credit for TT9 goes to its upstream
+authors; this repo only adds a Bopomofo/注音 build config and documentation.
