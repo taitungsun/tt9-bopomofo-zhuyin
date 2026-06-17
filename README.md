@@ -8,6 +8,10 @@ The official TT9 ships Pinyin (Simplified Chinese); Bopomofo exists in the upstr
 but is gated behind `.hidden` files. This build activates and packages it.  
 Package id: `io.github.sspanak.tt9.bopomofo` (debug-signed) — installs alongside official TT9.
 
+## 示範影片 / Demo
+
+[![TT9 Bopomofo demo on Qin F21 Pro](https://img.youtube.com/vi/GJ0BOuMyWZ0/0.jpg)](https://youtu.be/GJ0BOuMyWZ0)
+
 ## 安裝 / Install
 
 Download the APK from [Releases](../../releases), verify the SHA-256, then:
