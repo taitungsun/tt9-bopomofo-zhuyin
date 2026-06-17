@@ -10,7 +10,7 @@ Package id: `io.github.sspanak.tt9.bopomofo` (debug-signed) — installs alongsi
 
 ## 示範影片 / Demo
 
-[![TT9 Bopomofo demo on Qin F21 Pro](https://img.youtube.com/vi/GJ0BOuMyWZ0/0.jpg)](https://youtu.be/GJ0BOuMyWZ0)
+[Demo on YouTube](https://youtu.be/GJ0BOuMyWZ0)
 
 ## 安裝 / Install
 
